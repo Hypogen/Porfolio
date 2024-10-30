@@ -1,0 +1,17 @@
+/**
+ *
+ * @author abghy
+ */
+
+import javax.swing.*;
+import java.awt.*;
+
+public class ChessBoard extends JPanel {
+    
+    int cols = 8;
+    int rows = 8;
+    
+    public Board() {
+        this.setPreferredSize(new Dimension());
+    }
+}
