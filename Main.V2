@@ -1,0 +1,29 @@
+/**
+ * Creating Chess JFrame, JavaxSwing
+ * Paul Perez
+ * 11/8/24
+ */
+
+import javax.swing.*;
+import java.awt.*;
+
+        
+public class Main {
+    
+    public static void main(String[] args) {
+        
+         JFrame window = new JFrame();
+         window.getContentPane().setBackground(Color.black);
+        window.setLayout(new GridBagLayout());
+        window.setMinimumSize(new Dimension(1000, 1000));
+        window.setLocationRelativeTo(null);
+        
+        ChessBoard board = new ChessBoard();
+        window.add(board);
+        
+        window.setVisible(true);
+    }
+}
+
+
+
